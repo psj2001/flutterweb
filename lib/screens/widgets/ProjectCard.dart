@@ -55,7 +55,6 @@ class _nameState extends State<ProjectCard> {
                         child: Container(
                           child: TextWidget(
                             sSize: size,
-                            color: Colors.white,
                             text: "${widget.name}",
                             size: 18,
                           ),
