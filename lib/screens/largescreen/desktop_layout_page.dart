@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:porfolio/Projects.dart';
 import 'package:porfolio/constants/colors.dart';
+import 'package:porfolio/constants/project%20card%20.dart';
 import 'package:porfolio/constants/styles.dart';
 import 'package:porfolio/screens/largescreen/Company%20Details.dart';
 import 'package:porfolio/screens/widgets/CustomTabBar.dart';
@@ -33,6 +34,7 @@ class _DesktopLayoutState extends State<DesktopLayout>
     _scrollController = ScrollController();
   }
 
+  bool isFlutterExperienceVisible = false; // Track visibility
   @override
   void dispose() {
     _tabController.dispose();
@@ -190,7 +192,9 @@ class _DesktopLayoutState extends State<DesktopLayout>
                   ],
                 ),
               ),
+              // My Recent Works
               Container(
+                color: AppColors.ebony,
                 key: _tabSectionKey, // Assign the GlobalKey to this container
                 width: size.width,
                 padding: EdgeInsets.symmetric(
@@ -203,19 +207,140 @@ class _DesktopLayoutState extends State<DesktopLayout>
                       text1: 'My Recent Works',
                     ),
                     SizedBox(height: size.height * 0.06),
-                    CustomTabBar(
-                      tabController: _tabController,
+                    // CustomTabBar(
+                    //   tabController: _tabController,
+                    // )
+                    Wrap(
+                      spacing: size.width *
+                          0.02, // Adjust horizontal spacing as needed
+                      runSpacing: size.height *
+                          0.02, // Adjust vertical spacing as needed ,
+                      children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            image: 'assets/images/file.png',
+                            size: size,
+                            androidLink:
+                                'https://play.google.com/store/apps/details?id=com.choose_n_fly',
+                            iosLink:
+                                'https://apps.apple.com/ae/app/choosenfly/id6476144503',
+                            subtitle:
+                                'Choosenfly is an app that is build for the purpose f noddjss jhjhas in this appa ',
+                            title: 'Choose N Fly',
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            androidLink:
+                                'https://play.google.com/store/search?q=malankara&c=apps&hl=en',
+                            iosLink:
+                                'https://apps.apple.com/mx/app/malankara/id6661021463?uo=2',
+                            image: 'assets/images/M.png',
+                            size: size,
+                            subtitle:
+                                'Malankara is an devotional app that includes prayers church prayer timing audio songs',
+                            title: 'Malankara',
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            androidLink:
+                                'https://play.google.com/store/apps/details?id=com.globosoft.choosemyfresh&hl=en-US&pli=1',
+                            iosLink:
+                                'https://apps.apple.com/in/app/choose-my-fresh/id1566818223',
+                            image: 'assets/images/choosemyfresh.png',
+                            size: size,
+                            subtitle:
+                                'Choosemyfresh is a online vegitables/fruits buying app ',
+                            title: 'Choose My Fresh',
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            image: 'assets/images/Sanskey.png',
+                            size: size,
+                            subtitle:
+                                'Sanskey is a crm wich assign task login logout ',
+                            title: 'Sanskey',
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            image: 'assets/images/caspian.png',
+                            size: size,
+                            subtitle:
+                                'Caspian is a crm app that include punchin/punchout ,leave application ,reambursement,salary slip ',
+                            title: 'Caspian',
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            image:
+                                'assets/images/Screenshot 2024-11-07 154430.png',
+                            size: size,
+                            subtitle:
+                                'Myfitbuddy is an app based on gym products including trainer subscription reminder planner',
+                            title: 'MyfitBuddy',
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            image: 'assets/images/landbank.png',
+                            size: size,
+                            subtitle:
+                                'This app is for the users to sell their plots',
+                            title: 'Land Bank Customer',
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            size: size,
+                            image: 'assets/images/landbank.png',
+                            subtitle:
+                                'This app is for admin to assign agents also to publish plot to investors',
+                            title: 'Land Bank Admin',
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            image: 'assets/images/landbank.png',
+                            size: size,
+                            subtitle:
+                                'This app is for the Agents to verify plot that assign by the admin',
+                            title: 'Land Bank Agent',
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            image: 'assets/images/landbank.png',
+                            size: size,
+                            subtitle:
+                                'This app is for the investors to buy plot investors can make intrest on plot through this app',
+                            title: 'Land Bank Investor',
+                          ),
+                        ),
+                      ],
                     )
                   ],
                 ),
               ),
               // TAB
-              Container(
-                height: size.height,
-                child: CustomTAbBarView(
-                  tabController: _tabController,
-                ),
-              ),
+              // Container(
+              //   height: size.height,
+              //   child: CustomTAbBarView(
+              //     tabController: _tabController,
+              //   ),
+              // ),
               SizedBox(
                 height: size.height * 0.05,
               ),

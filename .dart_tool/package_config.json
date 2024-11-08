@@ -68,6 +68,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "flutter_sparkle",
+      "rootUri": "file:///C:/Users/prana/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_sparkle-0.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.15"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///C:/Users/prana/Documents/flutter_windows_3.19.2-stable/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -362,7 +368,7 @@
       "languageVersion": "3.3"
     }
   ],
-  "generated": "2024-11-05T20:26:10.756093Z",
+  "generated": "2024-11-08T18:40:56.048505Z",
   "generator": "pub",
   "generatorVersion": "3.4.3",
   "flutterRoot": "file:///C:/Users/prana/Documents/flutter_windows_3.19.2-stable/flutter",

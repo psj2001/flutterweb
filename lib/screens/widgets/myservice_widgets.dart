@@ -179,9 +179,9 @@ class _MyServicesWidget2State extends State<MyServicesWidget2> {
     'amFoss',
   ];
   List<String> ppostPaths = [
-    'Flutter Developer \nAug 2023 - Oct 2024',
-    'Flutter Developer \nIntern Mar 2023 - Jul 2024',
-    'Flutter Developer \nTraining Nov 2022 - Dec 2022',
+    'Flutter Developer \n Aug 2023 - Oct 2024',
+    'Flutter Intern    \n Mar 2023 - Jul 2024',
+    'Flutter Traine    \n Nov 2022 - Dec 2022',
   ];
   List<String> postPaths = [
     'Flutter Developer Aug 2023 - Oct 2024',
@@ -198,6 +198,7 @@ class _MyServicesWidget2State extends State<MyServicesWidget2> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
+      physics: NeverScrollableScrollPhysics(),
       shrinkWrap: true,
       itemCount: imagePaths.length,
       itemBuilder: (context, index) {

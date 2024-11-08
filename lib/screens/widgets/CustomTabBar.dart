@@ -92,6 +92,7 @@ class AllProjects extends StatelessWidget {
       margin: EdgeInsets.symmetric(horizontal: size.width * 0.10),
       child: Center(
         child: GridView(
+            shrinkWrap: true,
             //physics: NeverScrollableScrollPhysics(),
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                 crossAxisCount: 2,
@@ -100,45 +101,45 @@ class AllProjects extends StatelessWidget {
                 childAspectRatio: 3 / 3),
             children: [
               ProjectCard(
-                imagess: 'assets/images/file.png',
+                imagess: 'assets/images/globosoft-n.jpg',
                 name: 'Choose n fly',
               ),
               ProjectCard(
-                imagess: 'assets/images/download.jpeg',
+                imagess: 'assets/images/globosoft-n.jpg',
                 name: 'My FitBuddy',
               ),
-              ProjectCard(
-                imagess: 'assets/images/Caspian.png',
-                name: 'Caspian',
-              ),
-              ProjectCard(
-                imagess: 'assets/images/landbank.png',
-                name: 'Land Bank Customer',
-              ),
-              ProjectCard(
-                imagess: 'assets/images/landbank.png',
-                name: 'Land Bank Admin',
-              ),
-              ProjectCard(
-                imagess: 'assets/images/landbank.png',
-                name: 'Land Bank Agent',
-              ),
-              ProjectCard(
-                imagess: 'assets/images/landbank.png',
-                name: 'Land Bank Investor',
-              ),
-              ProjectCard(
-                imagess: 'assets/images/M.png',
-                name: 'Malankkara',
-              ),
-              ProjectCard(
-                imagess: 'assets/images/choosemyfresh.png',
-                name: 'Choose My Fresh',
-              ),
-              ProjectCard(
-                imagess: 'assets/images/Sanskey.png',
-                name: 'Sanskey',
-              ),
+              // ProjectCard(
+              //   imagess: 'assets/images/Caspian.png',
+              //   name: 'Caspian',
+              // ),
+              // ProjectCard(
+              //   imagess: 'assets/images/landbank.png',
+              //   name: 'Land Bank Customer',
+              // ),
+              // ProjectCard(
+              //   imagess: 'assets/images/landbank.png',
+              //   name: 'Land Bank Admin',
+              // ),
+              // ProjectCard(
+              //   imagess: 'assets/images/landbank.png',
+              //   name: 'Land Bank Agent',
+              // ),
+              // ProjectCard(
+              //   imagess: 'assets/images/landbank.png',
+              //   name: 'Land Bank Investor',
+              // ),
+              // ProjectCard(
+              //   imagess: 'assets/images/M.png',
+              //   name: 'Malankkara',
+              // ),
+              // ProjectCard(
+              //   imagess: 'assets/images/choosemyfresh.png',
+              //   name: 'Choose My Fresh',
+              // ),
+              // ProjectCard(
+              //   imagess: 'assets/images/Sanskey.png',
+              //   name: 'Sanskey',
+              // ),
 
               // ProjectCard(),
               // ProjectCard(),
