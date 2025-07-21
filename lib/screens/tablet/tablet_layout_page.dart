@@ -74,7 +74,7 @@ class _TabletLayoutState extends State<TabletLayout> {
                     children: [
                       CountWidget(
                         size: size,
-                        text1: "1+",
+                        text1: "3+",
                         text2: "Years of",
                         text3: "Work Experience",
                       ),

@@ -119,7 +119,7 @@ class _DesktopLayoutState extends State<DesktopLayout>
                       },
                       child: CountWidget(
                         size: size,
-                        text1: "1+",
+                        text1: "3+",
                         text2: "Years of",
                         text3: "Work Experience",
                       ),
@@ -129,7 +129,7 @@ class _DesktopLayoutState extends State<DesktopLayout>
                           _tabSectionKey), // Scroll to Recent Works section
                       child: CountWidget(
                         size: size,
-                        text1: "10+",
+                        text1: "11+",
                         text2: "Work Projects",
                         text3: "Completed",
                       ),
@@ -139,7 +139,7 @@ class _DesktopLayoutState extends State<DesktopLayout>
                           _flutterExperienceKey), // Scroll to Flutter Experience section
                       child: CountWidget(
                         size: size,
-                        text1: "2",
+                        text1: "4+",
                         text2: "Years of",
                         text3: "Flutter Experience",
                       ),
@@ -152,7 +152,7 @@ class _DesktopLayoutState extends State<DesktopLayout>
                       },
                       child: CountWidget(
                         size: size,
-                        text1: "3",
+                        text1: "5",
                         text2: "Live",
                         text3: "Projects",
                       ),
@@ -216,6 +216,20 @@ class _DesktopLayoutState extends State<DesktopLayout>
                       runSpacing: size.height *
                           0.02, // Adjust vertical spacing as needed ,
                       children: [
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            image: 'assets/images/proptelli.png',
+                            size: size,
+                            androidLink:
+                                'https://play.google.com/store/apps/details?id=com.proptelli.app&hl=en-US',
+                            iosLink:
+                                'https://apps.apple.com/us/app/proptelli/id6744108975',
+                            subtitle:
+                                'PropTelli is a platform for partners to earn by referring Dubai property leads.',
+                            title: 'PropTelli',
+                          ),
+                        ),
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: ProjectCardWidget(
@@ -312,6 +326,9 @@ class _DesktopLayoutState extends State<DesktopLayout>
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: ProjectCardWidget(
+                            androidLink:
+                                'https://play.google.com/store/apps/details?id=com.pazheriagentapp&hl=en-US',
+                            iosLink: '',
                             image: 'assets/images/landbank.png',
                             size: size,
                             subtitle:
