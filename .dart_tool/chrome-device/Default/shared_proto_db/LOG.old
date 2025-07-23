@@ -1,12 +1,14 @@
-2025/07/21-16:20:23.228 6fcc Reusing MANIFEST C:\Users\prana\AppData\Local\Temp\flutter_tools.6a2cdd6f\flutter_tools_chrome_device.f39b663e\Default\shared_proto_db/MANIFEST-000001
-2025/07/21-16:20:23.230 6fcc Delete type=0 #3
-2025/07/21-16:20:23.231 6fcc Delete type=0 #4
-2025/07/21-16:20:23.231 6fcc Delete type=0 #7
-2025/07/21-16:20:23.231 6fcc Delete type=2 #8
-2025/07/21-16:20:23.231 6fcc Delete type=0 #10
-2025/07/21-16:20:23.231 6fcc Delete type=2 #11
-2025/07/21-16:20:23.231 6fcc Delete type=0 #13
-2025/07/21-16:20:23.231 6fcc Delete type=2 #14
-2025/07/21-16:20:23.231 6fcc Delete type=0 #16
-2025/07/21-16:20:23.231 6fcc Delete type=2 #17
-2025/07/21-16:20:23.231 6fcc Delete type=0 #19
+2025/07/21-16:57:24.302 2444 Reusing MANIFEST C:\Users\prana\AppData\Local\Temp\flutter_tools.940041b5\flutter_tools_chrome_device.6b24a8e4\Default\shared_proto_db/MANIFEST-000001
+2025/07/21-16:57:24.302 2444 Recovering log #26
+2025/07/21-16:57:24.304 2444 Reusing old log C:\Users\prana\AppData\Local\Temp\flutter_tools.940041b5\flutter_tools_chrome_device.6b24a8e4\Default\shared_proto_db/000026.log 
+2025/07/21-16:57:24.305 2444 Delete type=0 #3
+2025/07/21-16:57:24.305 2444 Delete type=0 #4
+2025/07/21-16:57:24.305 2444 Delete type=0 #7
+2025/07/21-16:57:24.305 2444 Delete type=2 #8
+2025/07/21-16:57:24.305 2444 Delete type=0 #10
+2025/07/21-16:57:24.305 2444 Delete type=2 #11
+2025/07/21-16:57:24.305 2444 Delete type=0 #13
+2025/07/21-16:57:24.305 2444 Delete type=2 #14
+2025/07/21-16:57:24.306 2444 Delete type=0 #16
+2025/07/21-16:57:24.306 2444 Delete type=2 #17
+2025/07/21-16:57:24.306 2444 Delete type=0 #19

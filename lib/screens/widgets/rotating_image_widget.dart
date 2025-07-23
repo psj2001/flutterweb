@@ -64,7 +64,7 @@ class _RotatingImageContainerState extends State<RotatingImageContainer>
               decoration: BoxDecoration(
                 image: const DecorationImage(
                   fit: BoxFit.cover,
-                  image: AssetImage('assets/images/ffff-removebg-preview.png'),
+                  image: AssetImage('assets/images/Untitled design (1).png'),
                 ),
                 border: Border.all(color: Colors.blue, width: 1.2),
                 borderRadius: BorderRadius.circular(20),
