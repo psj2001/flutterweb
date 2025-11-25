@@ -188,7 +188,7 @@ class _MobileLayoutState extends State<MobileLayout>
                       ),
                       CountWidget(
                         size: size,
-                        text1: "5",
+                        text1: "8",
                         text2: "Live",
                         text3: "Projects",
                       ),
@@ -235,6 +235,48 @@ class _MobileLayoutState extends State<MobileLayout>
                         runSpacing: size.height *
                             0.02, // Adjust vertical spacing as needed ,
                         children: [
+                            Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            image: 'assets/images/smn.png',
+                            size: size,
+                            androidLink:
+                                'https://play.google.com/store/apps/details?id=com.technologies.smn.customer',
+                            iosLink:
+                                'https://apps.apple.com/ae/app/smn-customer/id6590611835',
+                            subtitle:
+                                'SMN is an food delivery app that connects users with a variety of home made foods.',
+                            title: 'SMN',
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                              image: 'assets/images/smn.png',
+                            size: size,
+                            androidLink:
+                                'https://play.google.com/store/apps/details?id=com.technologies.smn.seller',
+                            iosLink:
+                                'https://apps.apple.com/ae/app/smn-kitchen/id6608989625',
+                            subtitle:
+                                'SMN Kitchen is a Cloud Kitchen app that offers a variety of cuisines prepared by home chefs.',
+                            title: 'SMN Kitchen',
+                          ),
+                        ),
+                         Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: ProjectCardWidget(
+                            image: 'assets/images/hrf.png',
+                            size: size,
+                            androidLink:
+                                'https://play.google.com/store/apps/details?id=com.technologies.hrf.customer&hl=en',
+                            iosLink:
+                                'https://apps.apple.com/ae/app/hrf/id6743518199',
+                            subtitle:
+                                'HRF is one of its kind handicrafts e-commerce platform.',
+                            title: 'HRF',
+                          ),
+                        ),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: ProjectCardWidget(

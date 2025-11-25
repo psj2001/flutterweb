@@ -16,28 +16,32 @@ class MyServicesWidget extends StatefulWidget {
 
 class _MyServicesWidgetState extends State<MyServicesWidget> {
   List<String> imagePaths = [
+    'assets/images/technologies.jpg',
     'assets/images/casakeyrealestate.jpg',
     'assets/images/globosoft-n.jpg',
     'assets/images/luminar.jpg',
-    'assets/images/th.jpg',
+    'assets/images/slr.png',
   ];
   List<String> CompanyPaths = [
+    'Technologies',
     'Casa Key Real Estate',
-    '      Globosoft         ',
-    'Luminar Technolab ',
-    '         amFoss            ',
+    'Globosoft',
+    'Luminar Technolab',
+    'SLR Shoppee',
   ];
   List<String> PostPath = [
-    'Flutter Developer Aug 2024 - Present            ',
-    'Flutter Developer Aug 2023 - Oct 2024           ',
-    'Flutter Developer Intern Mar 2023 - Jul 2024    ',
-    'Flutter Developer Training Nov 2022 - Dec - 2022',
+    'Flutter Developer Oct 2025 - Present',
+    'Flutter Developer Oct 2024 - Oct 2025',
+    'Flutter Developer Aug 2023 - Oct 2024',
+    'Flutter Developer Intern Mar 2023 - Jul 2024',
+    'Freelance Flutter Developer  Apr 2022 - Oct 2022',
   ];
   List<String> PostPath2 = [
-    ' At CasaKey Real Estate LLC, I contributed to the development of **PropTelli**, a Flutter-based mobile app that allows global Channel Partners to register, add and manage real estate leads, track deal progress and commissions, and collaborate with CasaKey’s Dubai-based sales team—empowering international agents to connect clients with Dubai’s property market and earn commissions through a seamless, tech-driven platform.',
+    'As a Flutter Developer at Technologies, I am engaged in building cutting-edge mobile applications that leverage the latest advancements in Flutter to deliver exceptional user experiences across multiple platforms. My role involves collaborating with cross-functional teams to design, develop, and deploy high-quality apps that meet client requirements and industry standards.',
+    ' At CasaKey Real Estate LLC, I contributed to the development of PropTelli, a Flutter-based mobile app that allows global Channel Partners to register, add and manage real estate leads, track deal progress and commissions, and collaborate with CasaKey\'s Dubai-based sales team - empowering international agents to connect clients with Dubai\'s property market and earn commissions through a seamless, tech-driven platform.',
     'As a Flutter Developer at Globosoft, I played a key role in designing and developing innovative mobile applications...',
     'During my intensive Five-month Flutter Development course, I mastered the Flutter framework...',
-    'Completed a week-long intensive Flutter development course with amFOSS...',
+    'As a Flutter Developer my career start from here as a Freelance Flutter Developer',
   ];
 
   List<bool> _isHovered = [];
@@ -169,34 +173,39 @@ class MyServicesWidget2 extends StatefulWidget {
 
 class _MyServicesWidget2State extends State<MyServicesWidget2> {
   List<String> imagePaths = [
+    'assets/images/technologies.jpg',
     'assets/images/casakeyrealestate.jpg',
     'assets/images/globosoft-n.jpg',
     'assets/images/luminar.jpg',
-    'assets/images/th.jpg',
+    'assets/images/slr.png',
   ];
   List<String> companyPaths = [
+    'Technologies',
     'Casa Key Real Estate',
     'Globosoft',
     'Luminar Technolab',
-    'amFoss',
+    'SLR Shoppee',
   ];
   List<String> ppostPaths = [
-    'Flutter Developer \n Dec 2024 - Present',
+    'Flutter Developer \n Oct 2025 - Present',
+    'Flutter Developer \n Oct 2024 - Oct 2025',
     'Flutter Developer \n Aug 2023 - Oct 2024',
     'Flutter Intern    \n Mar 2023 - Jul 2024',
-    'Flutter Trainee    \n Nov 2022 - Dec 2022',
+     'Freelance Flutter Developer  Apr 2022 - Oct 2022',
   ];
   List<String> postPaths = [
-    'Flutter Developer Dec 2024 - Present',
+    'Flutter Developer Oct 2025 - Present',
+    'Flutter Developer Oct 2024 - Oct 2025',
     'Flutter Developer Aug 2023 - Oct 2024',
     'Flutter Developer Intern Mar 2023 - Jul 2024',
-    'Flutter Developer Training Nov 2022 - Dec 2022',
+    'Freelance Flutter Developer  Apr 2022 - Oct 2022',
   ];
   List<String> postDescriptions = [
-    ' At CasaKey Real Estate LLC, I contributed to the development of **PropTelli**, a Flutter-based mobile app that allows global Channel Partners to register, add and manage real estate leads, track deal progress and commissions, and collaborate with CasaKey’s Dubai-based sales team—empowering international agents to connect clients with Dubai’s property market and earn commissions through a seamless, tech-driven platform.',
+    'As a Flutter Developer at Technologies, I am engaged in building cutting-edge mobile applications that leverage the latest advancements in Flutter to deliver exceptional user experiences across multiple platforms. My role involves collaborating with cross-functional teams to design, develop, and deploy high-quality apps that meet client requirements and industry standards.',
+    ' At CasaKey Real Estate LLC, I contributed to the development of PropTelli, a Flutter-based mobile app that allows global Channel Partners to register, add and manage real estate leads, track deal progress and commissions, and collaborate with CasaKey\'s Dubai-based sales team - empowering international agents to connect clients with Dubai\'s property market and earn commissions through a seamless, tech-driven platform.',
     'As a Flutter Developer at Globosoft, I played a key role in designing and developing innovative mobile applications...',
     'During my intensive Five-month Flutter Development course, I mastered the Flutter framework...',
-    'Completed a week-long intensive Flutter development course with amFOSS...',
+    'As a Flutter Developer my career start from here as a Freelance Flutter Developer',
   ];
 
   List<bool> _isHovered = [];
